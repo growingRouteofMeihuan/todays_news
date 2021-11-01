@@ -1,0 +1,109 @@
+/* 重置 Vant UI css样式 */
+/* 我们自己没写，vant自带的，都要来这里改 */
+
+/* 搜索框高度 */
+.wrapDiv .van-cell {
+    line-height: 1.2rem;
+    font-size: 0.6rem;
+    padding: .1rem .5rem .1rem 0;
+  }
+  /* 搜索图标大小 */
+  .wrapDiv .van-field__left-icon .van-icon{
+      font-size: .9rem;
+  }
+/* +图标边距 */
+  .wrapDiv i.van-icon.van-icon-add {
+      margin: .2rem .5rem 0 .5rem;
+  }
+/* 导航栏文字大小 */
+  .navWrap .van-tab{
+      font-size: .5rem;
+  }
+/* 导航栏高度 */
+  .navWrap .van-tabs__wrap{
+height: 1.2rem;
+  }
+/* 当前激活项文字颜色 */
+  .navWrap .van-tab--active {
+    color: #e43225;
+    font-weight: 600;
+}
+/* 条目间距 */
+.navWrap .van-tab{
+    padding: 0 .5rem;
+}
+/* 小红点大小 */
+.navWrap .van-info--dot {
+    width: 0.2rem;
+    height: .2rem;
+}
+/* 小红点位置 */
+.navWrap  .van-info {
+    position: absolute;
+    top: -.2rem;
+    right: -.2rem;}
+/* 底部导航栏高度 */
+.footerWrap .van-tabbar{
+  height:auto;
+}
+/* 字体大小 */
+.footerWrap .van-tabbar-item{
+  font-size: .35rem;
+}
+.footerWrap .van-tabbar-item__icon img{
+ height: .7rem;
+}
+/* 顶部导航栏 */
+.fitterWrap .van-nav-bar{
+  line-height: .7rem;
+}
+.fitterWrap  .van-nav-bar__arrow{
+  font-size: .7rem;
+}
+.fitterWrap .van-nav-bar__title{
+  font-size: .5rem;
+}
+.fitterWrap .van-nav-bar__content{
+  height: 1rem;
+}
+
+/* 筛选栏边框 */
+.fitterWrap .van-tabs__nav--card{
+  border: 0;
+  margin: .5rem .2rem;
+  height: .4rem;
+}
+/* 筛选栏字体 */
+.fitterWrap  .van-tab{
+  border:0;
+  color: black;
+  background-color: #fff;
+  font-size: .4rem;
+  line-height: 1rem;
+}
+/* 筛选栏激活 */
+.fitterWrap .van-tabs__nav--card .van-tab.van-tab--active{
+  background-color: white;
+  color: #e43225;
+  border:.01rem solid #ff9100;
+  padding: .1rem 0;
+  border-radius: .2rem;
+  font-weight: 700;
+}
+.fitterWrap .van-tabs__wrap{
+  overflow: unset;
+}
+
+.fitterWrap .van-grid-item__content{
+  height: auto;
+}
+.fitterWrap .van-grid-item__content--square{
+  top:.5rem
+}
+.mainWrap .van-cell,
+.mainWrap .van-button--normal{
+  font-size: .5rem;
+}
+.mainWrap .van-button{
+  height: 1rem;
+}
